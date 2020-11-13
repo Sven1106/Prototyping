@@ -1,4 +1,5 @@
 ﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Conventions;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -6,13 +7,11 @@ using System.Linq;
 
 namespace MongoDbDemo
 {
-    public class MongoCRUD
+    public class MongoCRUD : MongoDbSetup
     {
-        private IMongoDatabase mongoDb;
         public MongoCRUD(string databaseName)
         {
-            var client = new MongoClient();
-            this.mongoDb = client.GetDatabase(databaseName); // automatically creates a database if it doesn't exists
+            Setup(databaseName); // automatically creates a database if it doesn't exists
         }
 
         public void InsertDocument<T>(string collectionName, T document)
@@ -43,7 +42,6 @@ namespace MongoDbDemo
                 filter,
                 document
             );
-
         }
 
         public void DeleteDocument<T>(string collectionName, Guid id)

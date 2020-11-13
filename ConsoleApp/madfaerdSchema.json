@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSON Schema for the Subscription.CustomFields",
+  "type": "object",
+  "required": [
+    "person",
+    "school",
+    "class",
+    "vegetarian",
+    "lactoseIntolerant"
+  ],
+  "properties": {
+    "person": {
+      "type": "string",
+      "pattern": "^(.*)$"
+    },
+    "school": {
+      "type": "string",
+      "pattern": "^(.*)$"
+    },
+    "class": {
+      "type": "string",
+      "pattern": "^(.*)$"
+    },
+    "vegetarian": {
+      "type": "boolean"
+    },
+    "lactoseIntolerant": {
+      "type": "boolean"
+    }
+  }
+}

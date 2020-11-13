@@ -5,7 +5,19 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototyping", "Prototyping\Prototyping.csproj", "{169B2DCD-30EF-4F64-8BA5-582588C3C6F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbDemo", "MongoDbDemo\MongoDbDemo.csproj", "{44048718-DA7C-4F30-8BDB-DD2DE05F09D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDbDemo", "MongoDbDemo\MongoDbDemo.csproj", "{44048718-DA7C-4F30-8BDB-DD2DE05F09D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{B377A366-3558-4962-BB15-EDC50928CAAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Executor", "Executor\Executor.csproj", "{F33B858A-A9C9-4C78-9768-2F7C9FCBAC42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingFoxholeDependency", "TestingFoxholeDependency\TestingFoxholeDependency.csproj", "{91F90E59-7B29-4AB7-82FC-4702F8D17F8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPLDataflow", "TPLDataflow\TPLDataflow.csproj", "{438B6656-81F1-4FDC-9ABB-AE62C6BDC879}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snake", "Snake\Snake.csproj", "{FB0EA148-6043-46AF-9482-59C39B12CA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trekteg", "TheGreekQuestion\Trekteg.csproj", "{CA3B2A1F-ED6F-40A7-AC64-CAA6845000BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +33,30 @@ Global
 		{44048718-DA7C-4F30-8BDB-DD2DE05F09D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44048718-DA7C-4F30-8BDB-DD2DE05F09D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44048718-DA7C-4F30-8BDB-DD2DE05F09D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B377A366-3558-4962-BB15-EDC50928CAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B377A366-3558-4962-BB15-EDC50928CAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B377A366-3558-4962-BB15-EDC50928CAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B377A366-3558-4962-BB15-EDC50928CAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33B858A-A9C9-4C78-9768-2F7C9FCBAC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33B858A-A9C9-4C78-9768-2F7C9FCBAC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33B858A-A9C9-4C78-9768-2F7C9FCBAC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33B858A-A9C9-4C78-9768-2F7C9FCBAC42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F90E59-7B29-4AB7-82FC-4702F8D17F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F90E59-7B29-4AB7-82FC-4702F8D17F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F90E59-7B29-4AB7-82FC-4702F8D17F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F90E59-7B29-4AB7-82FC-4702F8D17F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438B6656-81F1-4FDC-9ABB-AE62C6BDC879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438B6656-81F1-4FDC-9ABB-AE62C6BDC879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438B6656-81F1-4FDC-9ABB-AE62C6BDC879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438B6656-81F1-4FDC-9ABB-AE62C6BDC879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0EA148-6043-46AF-9482-59C39B12CA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0EA148-6043-46AF-9482-59C39B12CA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0EA148-6043-46AF-9482-59C39B12CA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0EA148-6043-46AF-9482-59C39B12CA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3B2A1F-ED6F-40A7-AC64-CAA6845000BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3B2A1F-ED6F-40A7-AC64-CAA6845000BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3B2A1F-ED6F-40A7-AC64-CAA6845000BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3B2A1F-ED6F-40A7-AC64-CAA6845000BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

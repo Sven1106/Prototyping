@@ -1,0 +1,1 @@
+docker run --security-opt=seccomp:unconfined -it shaddyd/puppeteersharp

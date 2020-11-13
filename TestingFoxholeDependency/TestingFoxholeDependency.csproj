@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NJsonSchema.CodeGeneration.CSharp" Version="10.1.13" />
+    <PackageReference Include="Foxhole" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
